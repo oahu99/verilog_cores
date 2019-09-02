@@ -7,7 +7,7 @@ module clock_divider (
 //	Clock division counter
 reg	[15:0]	CLK_DIV;
 // Parameters for in/out freq
-parameter	CLK_IN_FREQ		=	50000000;	//	Change to match input clock
+parameter	CLK_IN_FREQ 	=	50000000;	//	Change to match input clock
 parameter	CLK_VAR_FREQ	=	20000	;		//	Change to match output clock
 
 always @ (posedge CLK_IN) // i2c clock gen
